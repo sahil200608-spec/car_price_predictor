@@ -29,3 +29,6 @@ A machine learning web application built with Streamlit that predicts car prices
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## Live Demo 
+-https://carpricepredictor-2mhusabhxuux9w9p3s6akw.streamlit.app
