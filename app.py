@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+import joblib as lib
 import numpy as np
 import pandas as pd
 
@@ -36,7 +36,7 @@ with tab1:
     """
     )
 
-    model = joblib.load("models/Random_forest_car_price_predictor.pkl")
+    model = lib.load("models/Random_Forest_car_price_predictor.pkl")
 
 
     col1,col2= st.columns(2)
